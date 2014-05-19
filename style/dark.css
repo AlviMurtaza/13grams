@@ -7,7 +7,7 @@ html, body {
 body {
 	font-family: 'open sans';
 	text-align: center;
-	background: #2E2E2E url('../images/bg.jpg')no-repeat 0 -200px;
+	background: url('http://13grams.com/images/bg.jpg')no-repeat 0 -200px;
 	background-size: cover;
 }
 

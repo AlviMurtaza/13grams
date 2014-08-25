@@ -1,28 +1,30 @@
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
 html, body {
 	margin: 0;
 	padding: 0;
-	font-family: Tahoma;
+	font-family: 'Shadows Into Light', cursive;
 }
 
 body {
-	font-family: 'open sans';
+	/*font-family: 'open sans';*/
 	text-align: center;
-	background: url('http://13grams.com/images/bg.jpg')no-repeat 0 -200px;
+	/*background: url('http://13grams.com/images/bg.jpg')no-repeat 0 -200px;*/
 	background-size: cover;
 }
 
 h1 {
 	font-size: 38pt;
-	font-weight: 100;
-	text-shadow: 0 0 3px;
-	border-bottom: 1px solid;
+	/*font-weight: 100;*/
+	/*text-shadow: 0 0 3px;*/
+	/*border-bottom: 1px solid;*/
 	margin-bottom: 0.8em;
 }
 
 h2.subtitle {
 	/*color: #343441;*/
 	font-weight: 100;
-	border-top: 1px solid;
+	/*border-top: 1px solid;*/
 	padding-top: 2em;
 	margin-top: 1.4em;
 	margin-bottom: 40px;
@@ -40,7 +42,7 @@ a {
 	color: #000;
 }
 
-#countdown_dashboard {
+/*#countdown_dashboard {
 	height: 96px;
 	margin-left: 125px;
 }
@@ -112,7 +114,7 @@ a {
 	font-size: 14pt;
 	color: #333;
 	padding: 4px 8px;
-}
+}*/
 
 .copyright {
 	font-size: 9pt;
@@ -138,6 +140,16 @@ a {
 	color: #770;
 }
 
+/*social*/
+
+ul.social {
+	display: inline-block;
+	list-style: none;
+}
+
+ul.social li {
+	display: inline-block;
+}
 #info_message {
 	background-color: #f0f9ff;
 	border: 1px solid #eef;

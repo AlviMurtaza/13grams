@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
 
-html, body {
+* {
 	margin: 0;
 	padding: 0;
 	font-family: 'Shadows Into Light', cursive;
@@ -18,26 +18,26 @@ h1 {
 	/*font-weight: 100;*/
 	/*text-shadow: 0 0 3px;*/
 	/*border-bottom: 1px solid;*/
-	margin-bottom: 0.8em;
+	/*margin-bottom: 0.8em;*/
 }
 
 h2.subtitle {
 	/*color: #343441;*/
 	font-weight: 100;
 	/*border-top: 1px solid;*/
-	padding-top: 2em;
-	margin-top: 1.4em;
-	margin-bottom: 40px;
+	padding-top: 1em;
+	/*margin-top: 1.4em;*/
+	/*margin-bottom: 40px;*/
 }
 
 a {
-	color: #fff;
-	text-shadow: 0 0 3px;
+	color: #000;
+	/*text-shadow: 0 0 3px;*/
 }
 
 #container {
 	margin: auto;
-	margin-top: 3.1em;
+	margin-top: 4.1em;
 	width: 1008px;
 	color: #000;
 }
@@ -145,11 +145,30 @@ a {
 ul.social {
 	display: inline-block;
 	list-style: none;
+	margin: 14px;
 }
 
 ul.social li {
 	display: inline-block;
 }
+
+ul.social li a {
+	font-size: 2.5em;
+}
+
+ul.social li:nth-child(1) a:hover {
+	color: #FF6600;
+}
+
+ul.social li:nth-child(2) a:hover {
+	color: #4099ff;
+}
+
+ul.social li:nth-child(3) a:hover {
+	color: #3B5998;
+	
+}
+
 #info_message {
 	background-color: #f0f9ff;
 	border: 1px solid #eef;

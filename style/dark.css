@@ -11,7 +11,7 @@ body {
 	text-align: center;
 	/*background: url('http://13grams.com/images/bg.jpg')no-repeat 0 -200px;*/
 	background-size: cover;
-	position: relative;
+	/*position: relative;*/
 }
 
 h1 {
@@ -172,11 +172,11 @@ ul.social li:nth-child(3) a:hover {
 /*-----------------------*/
 /*audio player*/
 
-audio {
+/*audio {
 	position: absolute;
 	bottom: 0;
 	right: 10px;
-}
+}*/
 
 #info_message {
 	background-color: #f0f9ff;

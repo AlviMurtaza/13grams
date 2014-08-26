@@ -8,13 +8,14 @@
 
 body {
 	text-align: center;
-	background-size: cover;
+	background: url(http://i01.i.aliimg.com/wsphoto/v1/1987096493_1/NEW-SY08C-children-s-font-b-toys-b-font-back-font-b-construction-b-font-font.jpg)no-repeat right bottom;
+background-size: 26%;
 }
 
-/*h1 {
-	font-size: 38pt;
+h1 {
+	font-size: 3em;
 
-}*/
+}
 
 h2.subtitle {
 	font-weight: 100;
@@ -32,30 +33,6 @@ a {
 	color: #000;
 }
 
-/*
-.copyright {
-	font-size: 9pt;
-	color: #333;
-	margin: 40px 0px;
-}
-
-.faded {
-	color: #999;
-}
-
-.form_message {
-	width: 400px;
-	padding: 10px;
-	margin: 15px auto;
-	display: none;
-}
-
-#error_message {
-	background-color: #ffe;
-	border-left: 5px solid #bb3;
-	border-right: 5px solid #bb3;
-	color: #770;
-}*/
 
 /*social*/
 
@@ -67,10 +44,26 @@ ul.social {
 
 ul.social li {
 	display: inline-block;
+	padding: 10px;
 }
 
 ul.social li a {
 	font-size: 2.5em;
+	opacity: 0.6;
+	-webkit-transition: -webkit-transform 1.5s ease-in; 
+	-moz-transition: -moz-transform 1.5s ease-in; 
+	-o-transition: -o-transform 1.5s ease-in;
+	transition: transform 1.5s ease-in;
+}
+
+
+ul.social li a:hover{
+	transition: all .3s ease-in;
+	opacity: 1;
+	-webkit-transform: rotate(360deg); 
+	-moz-transform: rotate(360deg); 
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg);
 }
 
 ul.social li:nth-child(1) a:hover {
@@ -86,28 +79,13 @@ ul.social li:nth-child(3) a:hover {
 	
 }
 /*-----------------------*/
-/*audio player*/
-
-/*audio {
-	position: absolute;
-	bottom: 0;
-	right: 10px;
-}*/
-/*
-#info_message {
-	background-color: #f0f9ff;
-	border: 1px solid #eef;
-	color: #247;
+audio {
+	opacity: 0.6;
 }
 
-#loading {
-	text-align: center;
-	margin: 10px;
-	display: none;
-	position: absolute;
-	width: 100%;
-	top: 60px;
-}*/
+audio:hover {
+	opacity: 1;
+}
 #reach {
     position:relative;
 }
